@@ -1,7 +1,7 @@
 a=10
 b=23
-temp=x
-x=y
-y=temp
-print('value of x:',x)
-print('value of y:',y)
+temp=a
+a=b
+b=temp
+print('value of a:',a)
+print('value of b:',b)
